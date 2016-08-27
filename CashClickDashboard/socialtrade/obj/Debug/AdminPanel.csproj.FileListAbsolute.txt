@@ -1,0 +1,6 @@
+D:\zaptas\cashclickadmin\socialtrade\bin\socialtrade.dll
+D:\zaptas\cashclickadmin\socialtrade\bin\socialtrade.pdb
+D:\zaptas\cashclickadmin\socialtrade\obj\Debug\AdminPanel.csprojResolveAssemblyReference.cache
+D:\zaptas\cashclickadmin\socialtrade\obj\Debug\socialtrade.dll
+D:\zaptas\cashclickadmin\socialtrade\obj\Debug\socialtrade.pdb
+D:\zaptas\cashclickadmin\socialtrade\bin\socialtrade.dll.config
