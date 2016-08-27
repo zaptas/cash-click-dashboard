@@ -1,0 +1,10 @@
+*.dll
+*.pdb
+*.txt
+*.cache
+*.suo
+CashClickDashboard/socialtrade/bin/socialtrade.dll
+CashClickDashboard/socialtrade/obj/Debug/socialtrade.dll
+CashClickDashboard/socialtrade/obj/Debug/socialtrade.pdb
+*.dll
+CashClickDashboard/socialtrade/obj/Debug/AdminPanel.csprojResolveAssemblyReference.cache
