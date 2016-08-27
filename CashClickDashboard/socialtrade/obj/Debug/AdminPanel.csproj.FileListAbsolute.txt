@@ -4,3 +4,8 @@ D:\zaptas\cashclickadmin\socialtrade\obj\Debug\AdminPanel.csprojResolveAssemblyR
 D:\zaptas\cashclickadmin\socialtrade\obj\Debug\socialtrade.dll
 D:\zaptas\cashclickadmin\socialtrade\obj\Debug\socialtrade.pdb
 D:\zaptas\cashclickadmin\socialtrade\bin\socialtrade.dll.config
+E:\sohelkhan\CashClickDashboard\cash-click-dashboard\CashClickDashboard\socialtrade\bin\socialtrade.dll
+E:\sohelkhan\CashClickDashboard\cash-click-dashboard\CashClickDashboard\socialtrade\bin\socialtrade.pdb
+E:\sohelkhan\CashClickDashboard\cash-click-dashboard\CashClickDashboard\socialtrade\obj\Debug\AdminPanel.csprojResolveAssemblyReference.cache
+E:\sohelkhan\CashClickDashboard\cash-click-dashboard\CashClickDashboard\socialtrade\obj\Debug\socialtrade.dll
+E:\sohelkhan\CashClickDashboard\cash-click-dashboard\CashClickDashboard\socialtrade\obj\Debug\socialtrade.pdb

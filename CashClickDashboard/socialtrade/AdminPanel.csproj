@@ -65,7 +65,9 @@
     <Content Include="css\animate.min.css" />
     <Content Include="css\bootstrap.min.css" />
     <Content Include="css\docs.min.css" />
+    <Content Include="css\function.css" />
     <Content Include="css\shCoreDefault.css" />
+    <Content Include="css\skin.css" />
     <Content Include="css\style.css">
       <DependentUpon>style.scss</DependentUpon>
     </Content>
@@ -88,65 +90,6 @@
     <Content Include="js\moment\moment.min.js" />
     <Content Include="js\shBrushXml.js" />
     <Content Include="js\shCore.js" />
-    <Content Include="production\calendar.html" />
-    <Content Include="production\chartjs.html" />
-    <Content Include="production\chartjs2.html" />
-    <Content Include="production\contacts.html" />
-    <Content Include="production\css\maps\jquery-jvectormap-2.0.3.css" />
-    <Content Include="production\echarts.html" />
-    <Content Include="production\e_commerce.html" />
-    <Content Include="production\fixed_footer.html" />
-    <Content Include="production\fixed_sidebar.html" />
-    <Content Include="production\form.html" />
-    <Content Include="production\form_advanced.html" />
-    <Content Include="production\form_buttons.html" />
-    <Content Include="production\form_upload.html" />
-    <Content Include="production\form_validation.html" />
-    <Content Include="production\form_wizards.html" />
-    <Content Include="production\general_elements.html" />
-    <Content Include="production\glyphicons.html" />
-    <Content Include="production\icons.html" />
-    <Content Include="production\images\american-express.png" />
-    <Content Include="production\images\cropper.jpg" />
-    <Content Include="production\images\img.jpg" />
-    <Content Include="production\images\inbox.png" />
-    <Content Include="production\images\mastercard.png" />
-    <Content Include="production\images\media.jpg" />
-    <Content Include="production\images\paypal.png" />
-    <Content Include="production\images\picture.jpg" />
-    <Content Include="production\images\prod-1.jpg" />
-    <Content Include="production\images\prod-2.jpg" />
-    <Content Include="production\images\prod-3.jpg" />
-    <Content Include="production\images\prod-4.jpg" />
-    <Content Include="production\images\prod-5.jpg" />
-    <Content Include="production\images\user.png" />
-    <Content Include="production\images\visa.png" />
-    <Content Include="production\inbox.html" />
-    <Content Include="production\index.html" />
-    <Content Include="production\index2.html" />
-    <Content Include="production\index3.html" />
-    <Content Include="production\invoice.html" />
-    <Content Include="production\js\datepicker\daterangepicker.js" />
-    <Content Include="production\js\moment\moment.min.js" />
-    <Content Include="production\level2.html" />
-    <Content Include="production\login.html" />
-    <Content Include="production\map.html" />
-    <Content Include="production\media_gallery.html" />
-    <Content Include="production\morisjs.html" />
-    <Content Include="production\other_charts.html" />
-    <Content Include="production\page_403.html" />
-    <Content Include="production\page_404.html" />
-    <Content Include="production\page_500.html" />
-    <Content Include="production\plain_page.html" />
-    <Content Include="production\pricing_tables.html" />
-    <Content Include="production\profile.html" />
-    <Content Include="production\projects.html" />
-    <Content Include="production\project_detail.html" />
-    <Content Include="production\tables.html" />
-    <Content Include="production\tables_dynamic.html" />
-    <Content Include="production\typography.html" />
-    <Content Include="production\widgets.html" />
-    <Content Include="production\xx.html" />
     <Content Include="vendors\animate.css\animate.css" />
     <Content Include="vendors\animate.css\animate.min.css" />
     <Content Include="vendors\animate.css\gulpfile.js" />
@@ -3897,6 +3840,8 @@
   <ItemGroup>
     <Content Include="Web.config" />
     <Content Include="config.rb" />
+    <Content Include="css\skin.scss" />
+    <Content Include="css\function.scss" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
