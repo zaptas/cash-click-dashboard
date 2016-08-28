@@ -1,7 +1,9 @@
 
-
 .cache
 .suo
 .dll
 .pdb
 .txt
+*.txt
+*.dll
+*.suo
