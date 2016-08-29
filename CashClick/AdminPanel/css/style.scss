@@ -1,0 +1,28 @@
+
+@import "skin";
+.tbl-skin-1 
+{
+	border:none;
+	color: $skin-1;
+	background:$skin-3;
+}
+
+
+#view-profile
+{
+
+
+	.tbl-bank-detail .table>tbody>tr>td,  .tbl-bank-detail .table>tbody>tr>th 
+	{ 
+		@extend .tbl-skin-1;
+	} 
+
+	.tbl-plan-detail .table>tbody>tr>td,  .tbl-plan-detail  .table>tbody>tr>th 
+	{
+		@extend .tbl-skin-1;
+	}
+}
+
+#profile{ 
+	 .edit-mode .form-group{margin-top:30px; }
+}
