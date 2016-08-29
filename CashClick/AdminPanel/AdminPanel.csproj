@@ -63,10 +63,7 @@
     <Content Include="build\js\custom.js" />
     <Content Include="build\js\custom.min.js" />
     <Content Include="css\animate.min.css" />
-    <Content Include="css\bootstrap.min.css" />
-    <Content Include="css\docs.min.css" />
     <Content Include="css\function.css" />
-    <Content Include="css\shCoreDefault.css" />
     <Content Include="css\skin.css" />
     <Content Include="css\style.css">
       <DependentUpon>style.scss</DependentUpon>
@@ -2033,6 +2030,8 @@
     <Content Include="vendors\jquery.tagsinput\src\jquery.tagsinput.css" />
     <Content Include="vendors\jquery.tagsinput\src\jquery.tagsinput.js" />
     <Content Include="vendors\jquery\AUTHORS.txt" />
+    <Content Include="vendors\jquery\dist\jquery.js" />
+    <Content Include="vendors\jquery\dist\jquery.min.js" />
     <Content Include="vendors\jquery\external\sizzle\LICENSE.txt" />
     <Content Include="vendors\jquery\jquery.min.js" />
     <Content Include="vendors\jquery\LICENSE.txt" />
@@ -3411,7 +3410,6 @@
     <Content Include="vendors\font-awesome\fonts\fontawesome-webfont.eot" />
     <Content Include="vendors\font-awesome\fonts\fontawesome-webfont.ttf" />
     <Content Include="vendors\font-awesome\fonts\fontawesome-webfont.woff" />
-    <Content Include="vendors\font-awesome\fonts\fontawesome-webfont.woff2" />
     <Content Include="vendors\font-awesome\fonts\FontAwesome.otf" />
     <Content Include="vendors\font-awesome\less\animated.less" />
     <Content Include="vendors\font-awesome\less\bordered-pulled.less" />
@@ -3897,6 +3895,12 @@
     <Content Include="vendors\fonts\scss\_variables.scss" />
     <Content Include="vendors\fonts\scss\font-awesome.scss" />
     <Content Include="vendors\gauge\dist\gauge.coffee" />
+    <Content Include="vendors\font-awesome\fonts\fontawesome-webfont.woff2" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="fonts\fonts\fontawesome-webfont.woff2" />
+    <Content Include="fonts\fontawesome-webfont.woff" />
+    <Content Include="fonts\fontawesome-webfont.woff2" />
+    <Content Include="vendors\jquery\dist\jquery.min.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

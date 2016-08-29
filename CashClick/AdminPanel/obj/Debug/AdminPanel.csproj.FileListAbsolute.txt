@@ -1,0 +1,6 @@
+D:\git\cash-click-dashboard\CashClick\AdminPanel\bin\socialtrade.dll.config
+D:\git\cash-click-dashboard\CashClick\AdminPanel\bin\socialtrade.dll
+D:\git\cash-click-dashboard\CashClick\AdminPanel\bin\socialtrade.pdb
+D:\git\cash-click-dashboard\CashClick\AdminPanel\obj\Debug\AdminPanel.csprojResolveAssemblyReference.cache
+D:\git\cash-click-dashboard\CashClick\AdminPanel\obj\Debug\socialtrade.dll
+D:\git\cash-click-dashboard\CashClick\AdminPanel\obj\Debug\socialtrade.pdb

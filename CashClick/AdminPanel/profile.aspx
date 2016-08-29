@@ -102,7 +102,14 @@
                                 </div>
                             </div>
 
-
+                            <div class="form-group">
+                                <label class="control-label col-md-3 col-sm-3 col-xs-12">
+                                    Date Of Birth <span class="required">*</span>
+                                </label>
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <input id="birthday" class="date-picker form-control col-md-7 col-xs-12" required="required" type="text">
+                                </div>
+                            </div>
 
                             <div class="form-group">
                                 <div class="col-md-9 col-sm-9 col-xs-12 col-md-offset-3">
@@ -119,6 +126,27 @@
         <div class="clearfix"></div>
     </div>
     <script type="text/javascript">
-        
+       
     </script>
+</asp:Content>
+
+<asp:Content ID="Content3" ContentPlaceHolderID="ScriptSection" runat="server">
+
+
+
+    <script>
+        <!-- bootstrap-daterangepicker -->
+
+    $(document).ready(function () {
+        $('#birthday').daterangepicker({
+            singleDatePicker: true,
+            calender_style: "picker_4"
+        }, function (start, end, label) {
+            console.log(start.toISOString(), end.toISOString(), label);
+        });
+    });
+
+    </script>
+    <!-- /bootstrap-daterangepicker -->
+
 </asp:Content>
