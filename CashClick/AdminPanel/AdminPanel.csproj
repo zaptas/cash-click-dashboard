@@ -64,7 +64,6 @@
     <Content Include="build\js\custom.min.js" />
     <Content Include="css\animate.min.css" />
     <Content Include="css\function.css" />
-    <Content Include="css\skin.css" />
     <Content Include="css\style.css">
       <DependentUpon>style.scss</DependentUpon>
     </Content>
@@ -2992,6 +2991,7 @@
     <Content Include="profile.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="pricing.aspx" />
+    <Content Include="temp.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="index.Master.cs">
@@ -3029,6 +3029,13 @@
     </Compile>
     <Compile Include="pricing.aspx.designer.cs">
       <DependentUpon>pricing.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="temp.aspx.cs">
+      <DependentUpon>temp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="temp.aspx.designer.cs">
+      <DependentUpon>temp.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

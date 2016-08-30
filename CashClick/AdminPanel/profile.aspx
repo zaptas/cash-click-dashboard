@@ -76,7 +76,14 @@
                                     <input type="text" class="form-control" placeholder="Enter Your Email">
                                 </div>
                             </div>
-
+                            <div class="form-group">
+                                <label class="control-label col-md-3 col-sm-3 col-xs-12">
+                                    Date Of Birth <span class="required">*</span>
+                                </label>
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <input id="birthday" class="date-picker form-control col-md-7 col-xs-12" required="required" type="text">
+                                </div>
+                            </div>
                             <div class="form-group">
                                 <label class="control-label col-md-3 col-sm-3 col-xs-12">Gender</label>
                                 <div class="col-md-6 col-sm-6 col-xs-12">
@@ -103,18 +110,8 @@
                             </div>
 
                             <div class="form-group">
-                                <label class="control-label col-md-3 col-sm-3 col-xs-12">
-                                    Date Of Birth <span class="required">*</span>
-                                </label>
-                                <div class="col-md-6 col-sm-6 col-xs-12">
-                                    <input id="birthday" class="date-picker form-control col-md-7 col-xs-12" required="required" type="text">
-                                </div>
-                            </div>
-
-                            <div class="form-group">
                                 <div class="col-md-9 col-sm-9 col-xs-12 col-md-offset-3">
-                                    <button type="submit" class="btn btn-primary">Cancel</button>
-                                    <button type="submit" class="btn btn-success">Submit</button>
+                                    <button type="submit" class="btn btn-success">Update</button>
                                 </div>
                             </div>
 

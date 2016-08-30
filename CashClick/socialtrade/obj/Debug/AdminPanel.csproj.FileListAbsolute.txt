@@ -1,0 +1,5 @@
+C:\Users\Zaptas\Downloads\New folder (3)\cashclick-master\ZaptasCashClick\socialtrade\bin\socialtrade.dll
+C:\Users\Zaptas\Downloads\New folder (3)\cashclick-master\ZaptasCashClick\socialtrade\bin\socialtrade.pdb
+C:\Users\Zaptas\Downloads\New folder (3)\cashclick-master\ZaptasCashClick\socialtrade\obj\Debug\AdminPanel.csprojResolveAssemblyReference.cache
+C:\Users\Zaptas\Downloads\New folder (3)\cashclick-master\ZaptasCashClick\socialtrade\obj\Debug\socialtrade.dll
+C:\Users\Zaptas\Downloads\New folder (3)\cashclick-master\ZaptasCashClick\socialtrade\obj\Debug\socialtrade.pdb
