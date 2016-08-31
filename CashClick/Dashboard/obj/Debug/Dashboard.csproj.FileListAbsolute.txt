@@ -1,5 +1,0 @@
-D:\git\cash-click-dashboard\CashClick\Dashboard\bin\Dashboard.dll.config
-D:\git\cash-click-dashboard\CashClick\Dashboard\bin\Dashboard.dll
-D:\git\cash-click-dashboard\CashClick\Dashboard\bin\Dashboard.pdb
-D:\git\cash-click-dashboard\CashClick\Dashboard\obj\Debug\Dashboard.dll
-D:\git\cash-click-dashboard\CashClick\Dashboard\obj\Debug\Dashboard.pdb

@@ -1,0 +1,16 @@
+D:\git\cash-click-dashboard\CashClick\AdminPanel\bin\socialtrade.dll.config
+D:\git\cash-click-dashboard\CashClick\AdminPanel\bin\socialtrade.dll
+D:\git\cash-click-dashboard\CashClick\AdminPanel\bin\socialtrade.pdb
+D:\git\cash-click-dashboard\CashClick\AdminPanel\obj\Debug\AdminPanel.csprojResolveAssemblyReference.cache
+D:\git\cash-click-dashboard\CashClick\AdminPanel\obj\Debug\socialtrade.dll
+D:\git\cash-click-dashboard\CashClick\AdminPanel\obj\Debug\socialtrade.pdb
+E:\sohelkhan\CashClick\Github\cash-click-dashboard\CashClick\AdminPanel\bin\socialtrade.dll
+E:\sohelkhan\CashClick\Github\cash-click-dashboard\CashClick\AdminPanel\bin\socialtrade.pdb
+E:\sohelkhan\CashClick\Github\cash-click-dashboard\CashClick\AdminPanel\obj\Debug\AdminPanel.csprojResolveAssemblyReference.cache
+E:\sohelkhan\CashClick\Github\cash-click-dashboard\CashClick\AdminPanel\obj\Debug\socialtrade.dll
+E:\sohelkhan\CashClick\Github\cash-click-dashboard\CashClick\AdminPanel\obj\Debug\socialtrade.pdb
+E:\sohelkhan\Github\cash-links\CashLinksSolution\AdminPanel\obj\Debug\AdminPanel.csprojResolveAssemblyReference.cache
+E:\sohelkhan\Github\cash-links\CashLinksSolution\AdminPanel\bin\AdminPanel.dll
+E:\sohelkhan\Github\cash-links\CashLinksSolution\AdminPanel\bin\AdminPanel.pdb
+E:\sohelkhan\Github\cash-links\CashLinksSolution\AdminPanel\obj\Debug\AdminPanel.dll
+E:\sohelkhan\Github\cash-links\CashLinksSolution\AdminPanel\obj\Debug\AdminPanel.pdb
