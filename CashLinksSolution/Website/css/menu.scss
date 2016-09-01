@@ -1,27 +1,42 @@
 
 @import "skin";
 /* color theme */
-$rgb-dark-1: rebeccapurple;
-$rgb-dark-2: red;
-$rgb-dark-3: blue;
-$rgb-shade-2: orenge;
-$shade-3: $skin-3;
-$shade-4: $skin-1;
-$main-menu-active-backgruond-color:$shade-4;
-$main-menu-active-color:$shade-3;
-/*do not down main menu height you can up it  cause logo will not align properly */
-$main-menu-height: 70px;
-$small-menu-height: 60px;
-$main-logo-size: 260px;
+$shade-1: $skin-1;
+$shade-2: #000000;
+$shade-3:$skin-3;
+$shade-4:$skin-4;
 
+
+$main-menu-height: 70px;
+
+
+
+$small-menu-height: 50px;
+$main-logo-size:40 + ($main-menu-height * 3) ;
+
+$main-menu-active-backgruond-color:$shade-1;
+$main-menu-active-color:$shade-3;
+
+$main-menu-background-color:$shade-3;
+$small-menu-background-color:$shade-3;
+
+@mixin small-menu {
+  color: $shade-3;
+  background: $shade-1;
+}
+@mixin small-menu-hover {
+  color: $shade-1;
+  background: $shade-3;
+}
 #main-manu
 {
     width: 100%;
     height: $main-menu-height;
     box-sizing: border-box;
     clear: both;
-    background: $shade-3;
+    background:$main-menu-background-color;
     display: flex;
+
 	.menu-active
 	{
 		background-color:$main-menu-active-backgruond-color !important;
@@ -44,7 +59,7 @@ $main-logo-size: 260px;
 
             img
             {
-                min-width: 150px;
+                min-width: 0px;
                 max-width: inherit;
                 width: 100%;
                 position: relative;
@@ -68,15 +83,13 @@ $main-logo-size: 260px;
             max-width: 700px;
             width: 100%;
             height: $main-menu-height;
-            background-color: $shade-3;
+            
             display: flex;
             box-sizing: border-box;
             margin: 0 auto;
-            
-			    
             .Li
             {
-                background-color: $rgb-shade-2;
+                background-color: $shade-3;
                 flex: 1;
                 box-sizing: border-box;
                 /*border-left: 1px solid black;*/
@@ -86,15 +99,14 @@ $main-logo-size: 260px;
                 {
                     display: block;
                     text-decoration: none;
-                    color: $shade-4;
+                    color: $shade-1;
                     &:hover
                     {
-                        background-color: $shade-4;
+                        background-color: $shade-1;
                         color: $shade-3;
                     }
+					
                 }
-
-
 
                 &:first-child
                 {
@@ -108,21 +120,38 @@ $main-logo-size: 260px;
     {
         display: none;
         height: $small-menu-height;
-        width: 60px;
-        background-color: $shade-3;
+        background-color: $small-menu-background-color;
         float: right;
         cursor: pointer;
         text-align: center;
-
+		clear: both;
+		width:100%;
+		
+		.small-menu-logo
+			{
+				flex-grow:1;
+				img
+				{
+					min-width: 50px;
+					max-width: 70px;
+					position: relative;
+					top: 50%;
+					transform: translateY(-50%);
+					margin-left:10px;
+				}
+			}
+		
+		
         span
         {
             font-size: 30px;
             line-height: $small-menu-height;
-            color: white;
             font-size: 35px;
-            color: $shade-4;
+            color: $shade-1;
+			width:60px;
         }
     }
+
 }
 
 
@@ -133,7 +162,7 @@ $main-logo-size: 260px;
     {
         display: inline-block;
         height: auto;
-
+		
         .logo-wrapper
         {
             width: 100%;
@@ -163,10 +192,10 @@ $main-logo-size: 260px;
     #main-manu
     {
         height: $small-menu-height;
-
+		background: $small-menu-background-color;
         .logo-wrapper
         {
-            display: none;
+            display:none;
         }
 
         .menu-wrapper
@@ -180,14 +209,15 @@ $main-logo-size: 260px;
                 max-width: 100%;
                 min-width: 100%;
                 height: auto;
-
+				background:$shade-1;
                 .Li
                 {
                     border: none;
                     /*border-bottom: 1px solid black;*/
                     height: $small-menu-height;
                     line-height: $small-menu-height;
-
+					
+					
                     &:first-child
                     {
                         /*border-bottom: 1px solid black;*/
@@ -197,14 +227,21 @@ $main-logo-size: 260px;
                     {
                         border: none;
                     }
+					a
+					{
+						@include small-menu;
+						&:hover
+						{
+							 @include small-menu-hover;
+						}
+					}
                 }
             }
         }
 
         .small-menu
         {
-            display: block;
-            clear: both;
+            display: flex;
         }
     }
     /* Logo */

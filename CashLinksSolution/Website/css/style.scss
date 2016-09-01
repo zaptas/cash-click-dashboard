@@ -539,18 +539,23 @@ a:hover {
   font-size: 50px;
   color: $service-logo;
   position: relative;
+  &:hover
+  {
+	 color:$skin-5;
+  }
 }
 
 .service_hoverly {
   transition: all 1s ease 0s;
   -moz-transition: all 1s ease 0s;
   -webkit-transition: all 1s ease 0s;
-  border: 1px solid $skin-3;
-  display: none;
-  padding: 25px 5px;
-  position: absolute;
+  /*border: 1px solid $skin-2; */
+  
+  padding: 0px 0px;
+  position: relative;
   top: 0;
   background: #fff;
+  
   i {
     background: none 0 0 repeat scroll #fff;
     font-size: 50px;
@@ -1026,7 +1031,7 @@ a:hover {
     line-height: 40px;
     padding: 8px 0;
     &:hover {
-      border-bottom: 1px solid $skin-3;
+      border-bottom: 1px solid $skin-1;
     }
   }
 }

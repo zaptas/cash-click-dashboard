@@ -87,7 +87,7 @@
     <section id="pr_sec">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs12 pull-right ">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <div class="title_sec">
                         <h1>OUR Service</h1>
                         <h2>How it works</h2>
@@ -109,9 +109,10 @@
                         <i class="fa fa-question-circle"></i>
                         <h2>What we do</h2>
                         <div class="service_hoverly">
-                            <i class="fa fa-question-circle"></i>
-                            <h2>what we do</h2>
+                        <%--    <i class="fa fa-question-circle"></i>
+                            <h2>what we do</h2>--%>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore ab odio quas  , voluptate aspernatur!</p>
+
                         </div>
                     </div>
                 </div>

@@ -41,11 +41,13 @@
 
                 <div class="logo-wrapper">
                     <div class="logo-container">
-                        <img class="img-responsive" src="img/logo.png" alt="Cash Links" />
-
+                        <img class="img-responsive" src="img/logo.png" alt="Mobile Name System" />
                     </div>
                 </div>
                 <div class="small-menu ">
+                    <div class="small-menu-logo">
+                        <img class="img-responsive" src="img/smal-logo.png" alt="Mobile Name System" />
+                    </div>
                     <span class="glyphicon glyphicon-menu-hamburger"></span>
                 </div>
                 <div class="menu-wrapper">
@@ -62,16 +64,7 @@
 
 
             </div>
-            <!--  <div class="container">
-                <div class="row">
 
-                    <%--<div class="col-lg-3 col-md-3 col-sm-12">
-                        <div class="lft_hd">
-                            <a href="Index.aspx">
-                                <img src="img/logo.png" alt="" /></a>
-                        </div> --%>
-                </div>
-            </div> -->
 
         </header>
 

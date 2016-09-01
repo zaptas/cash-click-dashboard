@@ -438,15 +438,16 @@ a:hover {
   font-size: 50px;
   color: #694E92;
   position: relative; }
+  .service i:hover {
+    color: #7C7C7C; }
 
 .service_hoverly {
   transition: all 1s ease 0s;
   -moz-transition: all 1s ease 0s;
   -webkit-transition: all 1s ease 0s;
-  border: 1px solid #694E92;
-  display: none;
-  padding: 25px 5px;
-  position: absolute;
+  /*border: 1px solid $skin-2; */
+  padding: 0px 0px;
+  position: relative;
   top: 0;
   background: #fff; }
   .service_hoverly i {
@@ -834,7 +835,7 @@ a:hover {
     line-height: 40px;
     padding: 8px 0; }
     .post_content > a:hover {
-      border-bottom: 1px solid #694E92; }
+      border-bottom: 1px solid #ffffff; }
 
 #sr_bx {
   border: #C4C4C4 solid 1px;
@@ -932,7 +933,6 @@ $skin-6:#00AFF0;
 $skin-7:#694E92;
 */
 /* color theme */
-/*do not down main menu height you can up it  cause logo will not align properly */
 #main-manu {
   width: 100%;
   height: 70px;
@@ -949,12 +949,12 @@ $skin-7:#694E92;
     height: 70px;
     box-sizing: border-box; }
     #main-manu .logo-wrapper .logo-container {
-      max-width: 260px;
+      max-width: 250px;
       width: 100%;
       height: 70px;
       margin: 0px auto; }
       #main-manu .logo-wrapper .logo-container img {
-        min-width: 150px;
+        min-width: 0px;
         max-width: inherit;
         width: 100%;
         position: relative;
@@ -971,12 +971,11 @@ $skin-7:#694E92;
       max-width: 700px;
       width: 100%;
       height: 70px;
-      background-color: #694E92;
       display: flex;
       box-sizing: border-box;
       margin: 0 auto; }
       #main-manu .menu-wrapper .menu-container .Li {
-        background-color: orenge;
+        background-color: #694E92;
         flex: 1;
         box-sizing: border-box;
         /*border-left: 1px solid black;*/
@@ -992,18 +991,28 @@ $skin-7:#694E92;
           border: none; }
   #main-manu .small-menu {
     display: none;
-    height: 60px;
-    width: 60px;
+    height: 50px;
     background-color: #694E92;
     float: right;
     cursor: pointer;
-    text-align: center; }
+    text-align: center;
+    clear: both;
+    width: 100%; }
+    #main-manu .small-menu .small-menu-logo {
+      flex-grow: 1; }
+      #main-manu .small-menu .small-menu-logo img {
+        min-width: 50px;
+        max-width: 70px;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        margin-left: 10px; }
     #main-manu .small-menu span {
       font-size: 30px;
-      line-height: 60px;
-      color: white;
+      line-height: 50px;
       font-size: 35px;
-      color: #ffffff; }
+      color: #ffffff;
+      width: 60px; }
 
 @media (max-width: 992px) {
   #main-manu {
@@ -1020,7 +1029,8 @@ $skin-7:#694E92;
           border: none; } }
 @media (max-width: 768px) {
   #main-manu {
-    height: 60px; }
+    height: 50px;
+    background: #694E92; }
     #main-manu .logo-wrapper {
       display: none; }
     #main-manu .menu-wrapper {
@@ -1030,19 +1040,25 @@ $skin-7:#694E92;
         display: inline-block;
         max-width: 100%;
         min-width: 100%;
-        height: auto; }
+        height: auto;
+        background: #ffffff; }
         #main-manu .menu-wrapper .menu-container .Li {
           border: none;
           /*border-bottom: 1px solid black;*/
-          height: 60px;
-          line-height: 60px; }
+          height: 50px;
+          line-height: 50px; }
           #main-manu .menu-wrapper .menu-container .Li:first-child {
             /*border-bottom: 1px solid black;*/ }
           #main-manu .menu-wrapper .menu-container .Li:last-child {
             border: none; }
+          #main-manu .menu-wrapper .menu-container .Li a {
+            color: #694E92;
+            background: #ffffff; }
+            #main-manu .menu-wrapper .menu-container .Li a:hover {
+              color: #ffffff;
+              background: #694E92; }
     #main-manu .small-menu {
-      display: block;
-      clear: both; }
+      display: flex; }
 
   /* Logo */ }
 

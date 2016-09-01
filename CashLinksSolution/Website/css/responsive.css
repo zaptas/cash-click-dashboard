@@ -71,8 +71,9 @@ float : left;
 }
 }
 @media (max-width:767px) {
+    
 .container {
-width : 300px;
+width : 100%;
 }
 .title_sec {
 width : 100%;
