@@ -98,9 +98,10 @@
                         <i class="fa fa-users"></i>
                         <h2>What is SME</h2>
                         <div class="service_hoverly">
-                            <i class="fa fa-users"></i>
-                            <h2>What is SME</h2>
+                          <%--  <i class="fa fa-users"></i>
+                            <h2>What is SME</h2>--%>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore ab odio quas  , voluptate aspernatur!</p>
+
                         </div>
                     </div>
                 </div>
@@ -112,7 +113,6 @@
                         <%--    <i class="fa fa-question-circle"></i>
                             <h2>what we do</h2>--%>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore ab odio quas  , voluptate aspernatur!</p>
-
                         </div>
                     </div>
                 </div>
@@ -121,8 +121,9 @@
                         <i class="fa fa-bullhorn"></i>
                         <h2>Why Us</h2>
                         <div class="service_hoverly">
-                            <i class="fa fa-bullhorn"></i>
-                            <h2>Why Us</h2>
+                            <%--<i class="fa fa-bullhorn"></i>
+                            <h2>Why Us</h2>--%>
+
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore ab odio quas  , voluptate aspernatur!</p>
                         </div>
                     </div>
@@ -425,7 +426,7 @@
                                 <textarea name="message" id="Textarea1" required="required" class="form-control" rows="8" placeholder="Message"></textarea>
                             </div>
                             <div class="form-group">
-                                <button type="submit" class="btn btn-primary">Send</button>
+                                <button type="submit" class="btn btn-primary theme-btn">Send</button>
                             </div>
                         </div>
                     </div>

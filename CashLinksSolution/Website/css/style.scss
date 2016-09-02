@@ -44,7 +44,7 @@ a:hover {
 }
 
 .navbar {
-  padding: 10px 0;
+  padding: 0px 0px 10px 0px;
   transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
 }
 
@@ -1143,5 +1143,10 @@ a:hover {
   width: 731px !important;
 }
 
-
+.theme-btn
+{
+	 background-color: $skin-3;
+	 color:$skin-1;
+	 &:hover{background-color:$skin-1; color:$skin-3;}
+}
 @import "menu";

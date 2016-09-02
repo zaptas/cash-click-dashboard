@@ -36,6 +36,7 @@ $small-menu-background-color:$shade-3;
     clear: both;
     background:$main-menu-background-color;
     display: flex;
+	margin-top:10px;
 
 	.menu-active
 	{
@@ -246,3 +247,94 @@ $small-menu-background-color:$shade-3;
     }
     /* Logo */
 }
+
+
+/* top bar start */ 
+
+
+$shade-1:#ffffff;
+$shade-2:#000000;
+$shade-3:#5A4181;
+$shade-4:#0269C2;
+$size-1:12px;
+
+$SetHeight:40px;
+@mixin color-theme()
+{
+	 background-color: $shade-3;
+	 color: $shade-1
+}
+
+@mixin SetHeight()
+{
+	 #top-bar
+	 {
+		
+		 height:$SetHeight;
+	 }
+	 .top-left-bar , .top-right-bar
+	 {
+		 line-height: $SetHeight;
+	 }
+	 .btn-primary
+	{
+		 font-size:$SetHeight/4;
+	}
+	
+}
+
+
+#top-bar
+{
+	width:100%;
+	height:auto;
+	clear:both;
+	box-sizing:border-box;
+	@include color-theme();
+
+
+	.btn-primary
+	{
+		background-color: $shade-1;
+		color: $shade-3;
+		outline:none;
+	}
+	.top-left-bar
+	{
+		 @include color-theme();
+		 p{padding:0px; margin:0px;}
+	}
+	.top-right-bar
+	{
+		@include color-theme();
+		 text-align:right;
+		 p{padding:0px; margin:0px;}
+	}
+}
+@include SetHeight();
+
+
+@media (max-width:768px)
+{
+	 #top-bar
+{
+	display:none;
+	height:auto;
+	
+	@include color-theme();
+
+	.top-left-bar
+	{
+		 @include color-theme();
+		 text-align:center;
+		 
+	}
+	.top-right-bar
+	{
+		@include color-theme();
+		 text-align:center;
+	
+	}
+}
+}
+

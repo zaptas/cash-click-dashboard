@@ -71,7 +71,9 @@ float : left;
 }
 }
 @media (max-width:767px) {
-    
+    #tstm_sec {
+        display:none;
+    }
 .container {
 width : 100%;
 }
