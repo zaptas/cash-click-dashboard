@@ -10,7 +10,7 @@
 
     <link href="css/style.css" rel="stylesheet"  />
 </head>
-<body style="background-color:#F7F7F7;">  
+<body style="background-color:#F7F8DC;">  
     <form id="form1" runat="server">
         <section id="login">
             <div class="container">

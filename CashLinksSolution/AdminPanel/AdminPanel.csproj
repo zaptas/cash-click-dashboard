@@ -71,6 +71,10 @@
     <Content Include="fonts\css\font-awesome.min.css" />
     <Content Include="fonts\fonts\fontawesome-webfont.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Home\Home.aspx" />
+    <Content Include="Home\pricing.aspx" />
+    <Content Include="Home\profile.aspx" />
+    <Content Include="Home\view-profile.aspx" />
     <Content Include="images\layout.png" />
     <Content Include="images\min_menu.png" />
     <Content Include="images\min_menu.tiff" />
@@ -84,6 +88,7 @@
     <Content Include="js\moment\moment.min.js" />
     <Content Include="js\shBrushXml.js" />
     <Content Include="js\shCore.js" />
+    <Content Include="Login.aspx" />
     <Content Include="vendors\animate.css\animate.css" />
     <Content Include="vendors\animate.css\animate.min.css" />
     <Content Include="vendors\animate.css\gulpfile.js" />
@@ -2989,6 +2994,42 @@
     <Content Include="vendors\validator\validator.js" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Home\Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Home\Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Home\Home.Master.cs">
+      <DependentUpon>Home.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Home\Home.Master.designer.cs">
+      <DependentUpon>Home.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Home\pricing.aspx.cs">
+      <DependentUpon>pricing.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Home\pricing.aspx.designer.cs">
+      <DependentUpon>pricing.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Home\profile.aspx.cs">
+      <DependentUpon>profile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Home\profile.aspx.designer.cs">
+      <DependentUpon>profile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Home\view-profile.aspx.cs">
+      <DependentUpon>view-profile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Home\view-profile.aspx.designer.cs">
+      <DependentUpon>view-profile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -3860,6 +3901,7 @@
     <Content Include="fonts\fontawesome-webfont.woff" />
     <Content Include="fonts\fontawesome-webfont.woff2" />
     <Content Include="vendors\jquery\dist\jquery.min.map" />
+    <Content Include="Home\Home.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
