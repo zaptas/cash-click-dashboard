@@ -9,3 +9,114 @@
 #profile .edit-mode .form-group {
   margin-top: 30px;
 }
+
+/* login start here..*/
+/* line 40, style.scss */
+#login .container .row div:first-child {
+  margin-top: 5%;
+  background: rgba(242, 246, 248, 0.1);
+  background: -moz-linear-gradient(left, #f2f6ec 0%, #b5c6d0 99%, #e0eff9 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, #f2f6f8), color-stop(99%, #b5c6d0), color-stop(100%, #e0eff9));
+  background: -webkit-linear-gradient(left, #f2f6ec 0%, #b5c6d0 99%, #e0eff9 100%);
+  background: -o-linear-gradient(left, #f2f6ec 0%, #b5c6d0 99%, #e0eff9 100%);
+  background: -ms-linear-gradient(left, #f2f6ec 0%, #b5c6d0 99%, #e0eff9 100%);
+  background: linear-gradient(to right, #f2f6ec 0%, #b5c6d0 99%, #e0eff9 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f6f8', endColorstr='#e0eff9', GradientType=1 );
+}
+/* line 56, style.scss */
+#login h1 {
+  color: #1fa67b;
+  font-size: 18px;
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+/* line 63, style.scss */
+#login .form-group {
+  margin-bottom: 20px;
+}
+/* line 66, style.scss */
+#login .checkbox {
+  margin-bottom: 20px;
+  position: relative;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+/* line 74, style.scss */
+#login .checkbox.show:before {
+  content: '\e013';
+  color: #1fa67b;
+  font-size: 17px;
+  margin: 1px 0 0 3px;
+  position: absolute;
+  pointer-events: none;
+  font-family: 'Glyphicons Halflings';
+}
+/* line 83, style.scss */
+#login .checkbox .character-checkbox {
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  vertical-align: middle;
+  display: inline-block;
+}
+/* line 92, style.scss */
+#login .checkbox .label {
+  color: #6d6d6d;
+  font-size: 13px;
+  font-weight: normal;
+}
+/* line 98, style.scss */
+#login .btn.btn-custom {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+/* line 102, style.scss */
+#login .forget {
+  font-size: 13px;
+  text-align: center;
+  display: block;
+}
+
+        /*    --------------------------------------------------
+	:: Inputs & Buttons
+	-------------------------------------------------- */
+/* line 113, style.scss */
+.form-control {
+  color: #212121;
+}
+
+/* line 117, style.scss */
+.btn-custom {
+  color: #fff;
+  background-color: #2A3F54;
+}
+/* line 120, style.scss */
+.btn-custom:hover, .btn-custom:focus {
+  color: #fff;
+}
+
+        /*    --------------------------------------------------
+    :: Footer
+	-------------------------------------------------- */
+/* line 129, style.scss */
+#footer {
+  color: #6d6d6d;
+  font-size: 12px;
+  text-align: center;
+}
+/* line 133, style.scss */
+#footer p {
+  margin-bottom: 0;
+}
+/* line 136, style.scss */
+#footer a {
+  color: inherit;
+}
+
+/* login start end */
