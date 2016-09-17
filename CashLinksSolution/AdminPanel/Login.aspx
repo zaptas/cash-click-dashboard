@@ -8,9 +8,9 @@
     <title></title>
     <link href="vendors/bootstrap/bootstrap.min.css" rel="stylesheet" />
 
-    <link href="css/style.css" rel="stylesheet"  />
+    <link href="css/style.css" rel="stylesheet" />
 </head>
-<body style="background-color:#F7F8DC;">  
+<body style="background-color: #F7F8DC;">
     <form id="form1" runat="server">
         <section id="login">
             <div class="container">
@@ -20,17 +20,17 @@
                         <div role="form" id="login-form" autocomplete="off">
                             <div class="form-group">
                                 <label for="email" class="sr-only">Email</label>
-                                <input type="email" name="email" id="email" class="form-control" placeholder="Email or Username">
+                                <input type="email"  id="email" class="form-control" placeholder="Email or Username" />
                             </div>
                             <div class="form-group">
                                 <label for="key" class="sr-only">Password</label>
-                                <input type="password" name="key" id="key" class="form-control" placeholder="Password">
+                                <input type="password"  id="key" class="form-control" placeholder="Password" />
                             </div>
                             <div class="checkbox">
                                 <span class="character-checkbox" onclick="showPassword()"></span>
                                 <span class="label">Show password</span>
                             </div>
-                            <input type="submit" id="btn-login" class="btn btn-custom btn-lg btn-block" value="Log in">
+                            <input type="submit" id="btn-login" class="btn btn-custom btn-lg btn-block" value="Log in" />
                         </div>
                         <a href="javascript:;" class="forget" data-toggle="modal" data-target=".forget-modal">Forgot your password?</a>
                         <hr />
@@ -54,7 +54,7 @@
                     </div>
                     <div class="modal-body">
                         <p>Type your email account</p>
-                        <input type="email" name="recovery-email" id="recovery-email" class="form-control" autocomplete="off">
+                        <input type="email" name="recovery-email" id="recovery-email" class="form-control" autocomplete="off" />
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
