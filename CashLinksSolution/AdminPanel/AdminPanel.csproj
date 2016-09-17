@@ -2987,55 +2987,9 @@
     <Content Include="vendors\validator\index.html" />
     <Content Include="vendors\validator\multifield.js" />
     <Content Include="vendors\validator\validator.js" />
-    <Content Include="profile.aspx" />
-    <Content Include="pricing.aspx" />
-    <Content Include="temp.aspx" />
-    <Content Include="Default.aspx" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="index.Master.cs">
-      <DependentUpon>index.Master</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="index.Master.designer.cs">
-      <DependentUpon>index.Master</DependentUpon>
-    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="profile.aspx.cs">
-      <DependentUpon>profile.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="profile.aspx.designer.cs">
-      <DependentUpon>profile.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="pricing.aspx.cs">
-      <DependentUpon>pricing.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="pricing.aspx.designer.cs">
-      <DependentUpon>pricing.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="temp.aspx.cs">
-      <DependentUpon>temp.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="temp.aspx.designer.cs">
-      <DependentUpon>temp.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Default.aspx.cs">
-      <DependentUpon>Default.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Default.aspx.designer.cs">
-      <DependentUpon>Default.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="view-profile.aspx.cs">
-      <DependentUpon>view-profile.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="view-profile.aspx.designer.cs">
-      <DependentUpon>view-profile.aspx</DependentUpon>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\fonts\fontawesome-webfont.eot" />
@@ -3071,7 +3025,6 @@
     <Content Include="fonts\scss\_spinning.scss" />
     <Content Include="fonts\scss\_stacked.scss" />
     <Content Include="fonts\scss\_variables.scss" />
-    <Content Include="index.Master" />
     <Content Include="vendors\animate.css\.bower.json" />
     <Content Include="vendors\animate.css\animate-config.json" />
     <Content Include="vendors\animate.css\bower.json" />
@@ -3863,7 +3816,6 @@
     <Content Include="vendors\pdfmake\build\pdfmake.min.js.map" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="view-profile.aspx" />
     <Content Include="Web.config" />
     <Content Include="config.rb" />
     <Content Include="css\skin.scss" />
