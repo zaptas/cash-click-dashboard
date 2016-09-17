@@ -75,6 +75,7 @@
     <Content Include="Home\pricing.aspx" />
     <Content Include="Home\profile.aspx" />
     <Content Include="Home\view-profile.aspx" />
+    <Content Include="HtmlPage1.html" />
     <Content Include="images\layout.png" />
     <Content Include="images\min_menu.png" />
     <Content Include="images\min_menu.tiff" />
@@ -89,7 +90,6 @@
     <Content Include="js\shBrushXml.js" />
     <Content Include="js\shCore.js" />
     <Content Include="Login.aspx" />
-    <Content Include="temp.aspx" />
     <Content Include="vendors\animate.css\animate.css" />
     <Content Include="vendors\animate.css\animate.min.css" />
     <Content Include="vendors\animate.css\gulpfile.js" />
@@ -3033,13 +3033,6 @@
       <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="temp.aspx.cs">
-      <DependentUpon>temp.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="temp.aspx.designer.cs">
-      <DependentUpon>temp.aspx</DependentUpon>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\fonts\fontawesome-webfont.eot" />
