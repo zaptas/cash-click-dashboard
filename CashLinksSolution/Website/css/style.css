@@ -193,7 +193,8 @@ a:hover {
 .title_sec {
   margin: 0 auto;
   padding: 0 0 25px 0;
-  text-align: center; }
+  text-align: center;
+  margin-top: 60px; }
   .title_sec h2 {
     color: #606060;
     font-size: 12px;
