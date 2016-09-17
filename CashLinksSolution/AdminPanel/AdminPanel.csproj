@@ -90,6 +90,7 @@
     <Content Include="js\shCore.js" />
     <Content Include="Login.aspx" />
     <Content Include="temp.aspx" />
+    <Content Include="temp.html" />
     <Content Include="vendors\animate.css\animate.css" />
     <Content Include="vendors\animate.css\animate.min.css" />
     <Content Include="vendors\animate.css\gulpfile.js" />
