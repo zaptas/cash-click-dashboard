@@ -75,7 +75,6 @@
     <Content Include="Home\pricing.aspx" />
     <Content Include="Home\profile.aspx" />
     <Content Include="Home\view-profile.aspx" />
-    <Content Include="HtmlPage1.html" />
     <Content Include="images\layout.png" />
     <Content Include="images\min_menu.png" />
     <Content Include="images\min_menu.tiff" />

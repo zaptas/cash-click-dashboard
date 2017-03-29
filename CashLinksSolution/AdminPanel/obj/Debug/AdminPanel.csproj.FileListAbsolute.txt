@@ -14,3 +14,9 @@ E:\sohelkhan\Github\cash-links\CashLinksSolution\AdminPanel\bin\AdminPanel.dll
 E:\sohelkhan\Github\cash-links\CashLinksSolution\AdminPanel\bin\AdminPanel.pdb
 E:\sohelkhan\Github\cash-links\CashLinksSolution\AdminPanel\obj\Debug\AdminPanel.dll
 E:\sohelkhan\Github\cash-links\CashLinksSolution\AdminPanel\obj\Debug\AdminPanel.pdb
+D:\git\cash-links\CashLinksSolution\AdminPanel\obj\Debug\AdminPanel.csprojResolveAssemblyReference.cache
+D:\git\cash-links\CashLinksSolution\AdminPanel\obj\Debug\AdminPanel.dll
+D:\git\cash-links\CashLinksSolution\AdminPanel\obj\Debug\AdminPanel.pdb
+D:\git\cash-links\CashLinksSolution\AdminPanel\bin\AdminPanel.dll.config
+D:\git\cash-links\CashLinksSolution\AdminPanel\bin\AdminPanel.dll
+D:\git\cash-links\CashLinksSolution\AdminPanel\bin\AdminPanel.pdb

@@ -13,3 +13,9 @@ E:\sohelkhan\Github\cash-links\CashLinksSolution\Website\bin\WebSite.dll
 E:\sohelkhan\Github\cash-links\CashLinksSolution\Website\bin\WebSite.pdb
 E:\sohelkhan\Github\cash-links\CashLinksSolution\Website\obj\Debug\WebSite.dll
 E:\sohelkhan\Github\cash-links\CashLinksSolution\Website\obj\Debug\WebSite.pdb
+D:\git\cash-links\CashLinksSolution\Website\bin\WebSite.dll.config
+D:\git\cash-links\CashLinksSolution\Website\bin\WebSite.dll
+D:\git\cash-links\CashLinksSolution\Website\bin\WebSite.pdb
+D:\git\cash-links\CashLinksSolution\Website\obj\Debug\WebSite.csprojResolveAssemblyReference.cache
+D:\git\cash-links\CashLinksSolution\Website\obj\Debug\WebSite.dll
+D:\git\cash-links\CashLinksSolution\Website\obj\Debug\WebSite.pdb
